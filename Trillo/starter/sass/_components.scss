@@ -172,3 +172,40 @@
   color: var(--color-grey-light-4);
   align-self: flex-end;
 }
+
+.gallery {
+  display: flex;
+  &__item {
+  }
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+  &__heading {}
+
+  &__stars {
+    margin-right: auto;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    color: var(--color-primary);
+    fill: currentColor;
+  }
+
+  &__location {}
+
+  &__rating {}
+
+  &__rating-average {}
+
+  &__rating-count {}
+}
